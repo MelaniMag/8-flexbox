@@ -1,27 +1,55 @@
 body {
-    background-color: #673430;
+    background-color: #f8f5be;
     margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .site-links {
     list-style-type: none;
-    padding: 0;
     display: flex;
-    background-color: #46251b;
-    padding: 10px;
-    
+    gap: 20px;
+    padding: 0;
 }
 
 .site-link {
-    background-color: #714a36; 
-    margin: 0 10px;
-    padding: 10px;
     text-decoration: none;
-    color:  #a2a5ad;
-    display: inline-block;
-    border-radius: 10px;
-}
+} 
 
 .site-link:hover {
-    background-color:  #4c2e20;
+    text-decoration: underline;
+}
+
+.site-header {
+    background-color: rgb(253, 180, 204);
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: rgb(137, 235, 137);
+    flex: 0 0 200px;
+    padding: 20px;
+}
+
+.site-main {
+    background-color: rgb(248, 248, 130);
+    padding: 20px;
+}
+
+.site-footer {
+    background-color: rgb(235, 176, 235);
+    padding: 20px;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.two-col {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
 }
